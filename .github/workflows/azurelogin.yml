@@ -1,0 +1,11 @@
+name: Azureportallogin
+on:
+  workflow_dispatch:
+jobs:
+  build:
+    runs-on: self-hosted
+    steps:
+      - name: checkuser
+        run: whoami
+      - name: loginazure
+        run: 
