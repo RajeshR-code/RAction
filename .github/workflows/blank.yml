@@ -8,3 +8,7 @@ jobs:
       # Runs a single command using the runners shell
       - name: run testing command
         run: echo welcome to GitHUB!
+      - name: create RajeshGitHub
+        run: mkdir RajeshGitHub
+      - name : create GHwithRajeshFolder
+        run: mkdir GitHubWithRajesh
